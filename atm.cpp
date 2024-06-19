@@ -12,8 +12,6 @@ public:
 	void setvalue()
 	{
 		cout << "Enter name\n";
-		cin.ignore();
-
 		getline(cin, name);
 
 		cout << "Enter Account number\n";
@@ -80,7 +78,7 @@ int main()
 			b.withdrawl();
 			break;
 		case 5:
-            b.showbal();
+			b.showbal();
 			break;
 		case 6:
 			exit(1);
